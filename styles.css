@@ -1,0 +1,150 @@
+:root {
+    /* Colors*/
+    --bg-orange: hsl(31, 77%, 52%);
+    --bg-cyan: hsl(184, 100%, 22%);
+    --bg-dark-cyan: hsl(179, 100%, 13%);
+    --transparent-white: hsla(0, 0%, 100%, 0.75);
+    --light-gray: hsl(0, 0%, 95%);
+
+    /*Font*/
+    --font-weight-for-lexenddeca: 400;
+    --font-weight-for-bigshouldersdisplay: 700;
+
+
+    --font-lexa: 'Lexend Deca', sans-serif;
+    --font-bigShoulders:'Big Shoulders Display', cursive;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+    font-family: var(--font-lexa);
+    height: 100vh;
+}
+
+/*Body and main*/
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    padding: 2rem;
+    background-color: var(--transparent-white);
+    justify-content: center;
+}
+
+.mainContainer { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        min-height: 100%;
+        min-width: 100%;
+}
+/*Color classes*/
+.orange {
+    background-color: var(--bg-orange);
+    color: var(--bg-orange);
+}
+
+.cyan { 
+
+    background-color: var(--bg-cyan);
+    color: var(--bg-cyan);
+}
+
+.darkCyan { 
+    background-color:var(--bg-dark-cyan);
+    color: var(--bg-dark-cyan);
+}
+
+/*Rest of the styles*/
+
+.card { 
+    display: flex;
+    position: relative;
+    flex: 0 1 110rem;
+    max-width: 37.5rem;
+    flex-direction: column;
+    border-radius: 1.5rem;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.column { 
+    padding: 5rem;
+}
+
+
+.title { 
+    font-family: var(--font-bigShoulders);
+    font-size: 3.6rem;
+    color: var(--light-gray);
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-top: 2.4rem;
+}
+
+.text { 
+    padding-top: 2.4rem;
+    line-height: 2.8rem;
+    font-size: 1.5rem;
+    color: var(--transparent-white);
+}
+
+
+.btnLearnMore { 
+    background-color: var(--light-gray);
+    border: none;
+    height: 5rem;
+    margin-top: 3rem;
+    width: 18rem;
+    border-radius: 50px;
+    font-size: 1.6rem;
+    font-family: var(--font-lexa);
+    cursor: pointer;
+}
+
+.btnLearnMore:hover { 
+    background-color: transparent;
+    border: 2px solid var(--light-gray);
+    color: var(--light-gray);
+}
+
+
+
+
+.attribution {
+    padding: 1rem;
+    font-size: 1.8rem;
+    text-align: center;
+    position: relative;
+}
+
+.attribution a {
+    text-decoration: none;
+    color: var(--bg-orange);
+}
+
+.attribution a:hover {
+    color: var(--bg-cyan);
+}
+
+
+@media  screen and (min-width:850px) {
+
+    .card { 
+        flex-direction: row;
+        max-width: 100%;
+    }
+
+    .text { 
+        height: 20rem;
+    }
+    
+}
