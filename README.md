@@ -22,13 +22,13 @@ Users should be able to:
 
 ### Screenshot
 
-![Preview for Desktop](./design/finalImageDesktop.png)
+![Preview for Desktop](./desing/finalImageDesktop.png)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution on FrontEndMentor](https://www.frontendmentor.io/solutions/3column-preview-card-component-with-html-css-and-flex-u-dJIySRi#feedback)
+- Live Site URL: [Live Preview](https://sf3columncardcomponent.netlify.app/)
 
 
 ### Built with
@@ -41,5 +41,4 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://yusiforuclu.netlify.app)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/ISnowFoxI)
+- Frontend Mentor - [@SnowFox](https://www.frontendmentor.io/profile/ISnowFoxI)
